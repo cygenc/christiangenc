@@ -1,0 +1,48 @@
+body{
+	background: #212121;
+	color : #FAFAFA;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	color: #FAFAFA;
+	text-decoration: none;
+}
+a:hover{
+	color: #BDBDBD;
+}
+
+#profil img{
+	border-radius: 50%;
+}
+p{
+	text-align: center;
+	margin: 0;
+	line-height: 1.4;
+	font-size: 16px;
+}
+
+.myName{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #212121;
+}
+footer p {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #424242;
+}
+section{
+	position: relative;
+	top: 50px;
+	margin-bottom: 100px;
+}
+.fa{
+	margin-right: 10px;
+}
