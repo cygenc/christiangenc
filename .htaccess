@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redirection https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://christian.genc.world/$1 [L,R=301]
